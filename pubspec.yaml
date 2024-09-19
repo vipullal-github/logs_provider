@@ -2,6 +2,10 @@ name: logs_provider
 description: "A new Flutter package project."
 version: 0.0.1
 homepage:
+repository: 
+issue_tracker: 
+documentation: 
+
 
 environment:
   sdk: ^3.5.1
