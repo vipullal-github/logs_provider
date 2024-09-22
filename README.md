@@ -11,29 +11,32 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
+This package contains a widget which can be used to display a set of messages. One typical
+example would be to display messages like:
+  Waiting for connection...
+  Got a connection.
+  Sending data over the connection.
+  Finished. Send 300k bytes of data.
+  Connection closed.
+In our opinion, this is better than a simple in-determinate progress bar which leaves 
+the user wondering if the program is running or not!
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
+The package contains an InheritedWidget, which can be injected into the widget tree and 
+accessed by any widget in the subtree. Please see the attached example.
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+from the command prompt, please type in:  
+> *flutter pub get logs_provider*
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+  LogsProviderExample extends 
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Please look at the attached code examples.
+
+Please note that I have used an InheritedWidget instead of the Provider package. 
